@@ -1,0 +1,96 @@
+//////////////////////////////////////////////////////////////////////////////
+// INTRO
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+
+  &__sub {
+    margin-bottom: 4rem;
+  }
+}
+
+.highlight {
+  color: $color-primary-dark;
+}
+
+//////////////////////////////////////////////////////////////////////////////
+// FORM
+.form {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.4;
+  transition: all 0.5s;
+}
+
+.input {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 1rem 0rem;
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+  &__box {
+    font-size: 1.6rem;
+    flex: 1;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 0rem 1rem;
+  }
+}
+
+.reset__pass {
+  align-self: flex-end;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.alert {
+  visibility: hidden;
+  align-self: center;
+  font-size: 1.4rem;
+}
+
+.btn__login,
+.btn__signup {
+  margin: 1rem 0rem;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: inherit;
+  border: none;
+  padding: 1.2rem 3rem;
+  color: $color-white;
+  background-color: $color-primary;
+  box-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.3);
+  transition: all 0.5s;
+  font-weight: 500;
+  &:hover {
+    background-color: $color-primary-dark;
+  }
+}
+
+.cta {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.to__signup,
+.to__login {
+  cursor: pointer;
+}
