@@ -1,0 +1,57 @@
+
+.history-main{
+    border-radius: 25px;
+    background-color:white;
+}
+.bcr-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.bcr-head h2{
+    font-size: 18px;
+}
+
+.bcr-head a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.bcr-history{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+    
+}
+.bcr-history-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:50px ;
+}
+.bcr-history-profil{
+    display: flex;
+}
+.bcr-history-name{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.up{
+    font-size: 16px;
+    color: #1EC15F;
+}
+.down{
+    font-size: 16px;
+    color: #FF5B37;
+}
+.this{
+    font-size: 16px;
+    color: #7A7886;
+    margin-bottom: 45px;
+}
+.this-month{
+    margin-top: 10px;
+}
