@@ -59,6 +59,23 @@ nameBox.addEventListener("focus", () => changeColor("1", "#7950f2"));
 nameBox.addEventListener("blur", () =>
   changeColor("0.4", "rgba(0, 0, 0, 0.5)")
 );
+
+/////////////////////////////
+// Pass visible
+const visIcon = document.querySelectorAll(".pass_visible");
+visIcon.forEach((el) => {
+  el.addEventListener("mousedown", () => {
+    visIcon.forEach((el) => {
+      el.classList.toggle("hidden");
+    });
+    if (passBox.type === "password") {
+      passBox.type = "text";
+    } else {
+      passBox.type = "password";
+    }
+  });
+});
+
 /////////////////////////////
 // Change Alert Login
 const btnLogin = document.querySelector(".btn__login");
@@ -70,7 +87,7 @@ const changeAlert = (message, color) => {
   alert.style.visibility = "visible";
   alert.textContent = `${message}`;
   alert.style.color = `${color}`;
-  emailBox.value = passBox.value = "";
+  emailBox.value = passBox.value = nameBox.value = "";
   setTimeout(() => {
     alert.style.visibility = "hidden";
   }, 5000);
@@ -96,6 +113,7 @@ const cta = document.querySelectorAll(".cta");
 const resetPass = document.querySelector(".reset__pass");
 
 const switchMenu = () => {
+  emailBox.value = passBox.value = nameBox.value = "";
   form.firstElementChild.classList.toggle("hidden");
   btnLogin.classList.toggle("hidden");
   btnSignup.classList.toggle("hidden");
@@ -108,3 +126,17 @@ const switchMenu = () => {
 
 toSignup.addEventListener("click", switchMenu);
 toLogin.addEventListener("click", switchMenu);
+
+/////////////////////////////
+// Signup Button
+
+btnSignup.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.href = "./pin.html";
+});
+
+/////////////////////////////
+// Reset Password Button
+resetPass.addEventListener("click", () => {
+  window.location.href = "./reset.html";
+});
