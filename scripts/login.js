@@ -8,6 +8,15 @@ const account = {
 };
 
 /////////////////////////////
+// Back to Landing Page
+const heroTitle = document.querySelector(".hero__title");
+
+heroTitle.addEventListener("click", (e) => {
+  e.preventDefault();
+  window.location.href = "/";
+});
+
+/////////////////////////////
 // Change Color Focus
 const form = document.querySelector(".form");
 const icons = document.querySelectorAll(".input__icon");

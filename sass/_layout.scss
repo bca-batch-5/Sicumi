@@ -24,6 +24,7 @@
     align-self: flex-start;
     padding: 0rem 2rem;
     transition: all 0.4s;
+    cursor: pointer;
     &::after {
       content: "";
       position: absolute;

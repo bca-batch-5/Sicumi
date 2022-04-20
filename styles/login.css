@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   box-sizing: border-box;
-  color: #777;
+  color: #444;
 }
 
 .hidden {
@@ -44,6 +44,7 @@ body {
   align-self: flex-start;
   padding: 0rem 2rem;
   transition: all 0.4s;
+  cursor: pointer;
 }
 .hero__title::after {
   content: "";
