@@ -11,7 +11,7 @@
   justify-content: space-between;
 }
 .bottom-content {
-  /* margin-top: 20px; */
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -116,6 +116,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
 }
 .bcr-history-profil{
     display: flex;
