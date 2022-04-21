@@ -53,7 +53,7 @@ footer {
 aside {
   position: relative;
   width: 19%;
-  min-height: 80vh;
+  min-height: 90vh;
   margin-left: 10%;
   background-color: white;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -167,7 +167,7 @@ i {
 
 section {
   width: 60%;
-  height: 80vh;
+  height: 90vh;
   margin-right: 10%;
   background-color: white;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -200,32 +200,32 @@ a {
   margin-bottom: 10px;
 }
 .personal-information-container {
-  margin-top: 40px;
+  margin-top: 45px;
 }
 .detail-container {
-  height: 65px;
+  height: 60px;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  margin-bottom: 20px;
-  padding: 2px;
+  margin-bottom: 10px;
+  padding: 8px;
 }
 .detail-container h3 {
   margin-left: 15px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   color: #7a7886;
 }
 .detail-container p {
   margin-left: 15px;
-  margin-top: 5px;
+  /* margin-top: 0px; */
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #514f5b;
 }
 .pn-detail-container {
   /* width: 300px; */
-  height: 80px;
+  height: 60px;
   background: #ffffff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
@@ -237,20 +237,26 @@ a {
 .pn-detail-container h3 {
   margin-left: 15px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   color: #7a7886;
 }
 .pn-detail-container p {
   margin-left: 15px;
-  margin-top: 5px;
+  margin-top: 0px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #514f5b;
 }
 .pn-detail-container a {
-  margin-top: 20px;
+  margin-top: 8px;
   margin-right: 20px;
   font-weight: 400;
   font-size: 14px;
   color: #5f3dc4;
+}
+.pn-detail-container a img {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  top: -8.97985px;
 }
