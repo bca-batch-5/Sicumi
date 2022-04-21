@@ -1,0 +1,129 @@
+.main{
+   
+        width: 850px;
+        /* height: 1300px; */
+        background-color: white;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        height: 900px;
+    
+}
+aside{
+    height: 900px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 935px;
+    /* margin: 30px; */
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: ;
+}
+.top p{
+    width: 591px;
+    font-size: 16px;
+    color:#514F5B;
+    text-align: center;
+}
+.fi-rr-check{
+    border-radius: 100%;
+    background-color: green;
+
+}
+.top img{
+    width: 70px;
+    height: 70px;
+}
+.top h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.center-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:30px;
+}
+.center-main h3{
+    font-size: 18px;
+}
+.center-line{
+    width: 790px;
+    height: 92px;
+    padding: 15px;
+}
+.center-line p{
+    color: #7A7886;
+    font-size: 16px;
+}
+.center-line h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #514F5B;
+}
+.top-main{
+    margin-left: 30px;
+}
+.top-main h3 {
+    font-size: 18px;
+  }
+  .bcr-history-line {
+    /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; */
+    margin-bottom: 50px;
+    width: 790px;
+    height: 110px;
+    /* margin-top: 25px; */
+  }
+  .bcr-history-profil {
+    display: flex;
+    padding: 20px;
+  }
+  .bcr-history-name {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .bottom{
+      margin-left: 283px;
+  }
+  .bottom a{
+      text-decoration: none;
+      border: 1px solid white;
+      margin-right: 30px;
+  }
+.btnshare{
+    background-color: #cdbdfd;
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-bottom: 16px;
+    border-radius: 12px;
+}
+.btndownload{
+    background-color: #cdbdfd;
+    font-size: 18px;
+    padding: 17px;
+    border-radius: 12px;
+    color: #5f3dc4;
+}
+.btnback{
+    border: 1px solid white;
+    background-color: #5f3dc4;
+    font-size: 18px;
+    padding: 17px;
+    border-radius: 12px;
+    color: white;
+}
+.bottom-fld{
+    margin-left: 650px;
+}

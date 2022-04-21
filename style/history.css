@@ -1,14 +1,20 @@
 
 .history-main{
+    height: 650px;
     border-radius: 25px;
     background-color:white;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+aside{
+    height: 650px;
 }
 .bcr-head{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 30px;
+    margin-top: 0;
+    padding-top: 30px;
 }
 .bcr-head h2{
     font-size: 18px;

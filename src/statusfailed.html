@@ -14,7 +14,7 @@
     <link rel="icon" href="../style/favicon.ico" type="image/x-icon">
     <link rel="stylesheet"
         href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
-    <link rel="stylesheet" href="../style/corfirmation.css">
+    <link rel="stylesheet" href="../style/status.css">
 </head>
 
 <body>
@@ -57,20 +57,11 @@
         </aside>
         <section>
             <div class="main">
-                <div class="main-container">
-                    <div class="top-main">
-                        <h3> Transfer </h3>
-                        <div class="bcr-history-line">
-                            <div class="bcr-history-profil">
-                                <div class="bcr-history-foto">
-                                    <img src="../asset/1.svg" alt="" />
-                                </div>
-                                <div class="bcr-history-name">
-                                    <p>Samuel Suhi</p>
-                                    <p>+62 813-8492-9994</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="container">
+                    <div class="top">
+                        <img src="../asset/failed.png" alt="">
+                        <h2>Transfer failed</h2>
+                        <p>We can’t transfer your money at the moment, we recommend you to check your internet connection and try again.</p>
                     </div>
                     <div class="center-main">
                         <h3>Detail</h3>
@@ -92,46 +83,27 @@
                                 <h4>For buying some socks</h4>
                             </div>
                         </div>
-                        <div class="bottom-main">
-                            <!-- <a href="">Continue</a> -->
-                            <label class="modal-open modal-label" for="modal-open2">
-                                <p>Continue</p>
-                            </label>
-                            <input type="radio" name="modal" value="open" id="modal-open2" class="modal-radio" />
-                            <div class="modal modal2">
-                                <label class="modal-label overlay"><input type="radio" name="modal" value="close"
-                                        class="modal-radio" /></label>
-                                <div class="content">
-                                    <div class="top">
-                                        <h2>Enter PIN to Transfer</h2>
-                                        <label class="modal-label close-btn">
-                                            <input type="radio" name="modal" value="close"
-                                                class="modal-radio" /></label>
-                                        <p> Enter your 6 digits PIN for confirmation to continue transferring money.
-                                        </p>
-                                    </div>
-
-                                    <div class="container-pin">
-                                        <form class="pincode">
-                                            <input type="password" maxlength=1 />
-                                            <input type="password" maxlength=1 />
-                                            <input type="password" maxlength=1 />
-                                            <input type="password" maxlength=1 />
-                                            <input type="password" maxlength=1 />
-                                            <input type="password" maxlength=1 />
-                                        </form>
-                                    </div>
-                                    <div class="bottom-pin">
-                                        <a href="">Continue</a>
-                                    </div>
+                    </div>
+                    <div class="top-main">
+                        <h3> Transfer </h3>
+                        <div class="bcr-history-line">
+                            <div class="bcr-history-profil">
+                                <div class="bcr-history-foto">
+                                    <img src="../asset/1.svg" alt="" />
+                                </div>
+                                <div class="bcr-history-name">
+                                    <p>Samuel Suhi</p>
+                                    <p>+62 813-8492-9994</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="bottom-fld">
+                     
+                        <a class="btnback" href="">Try Again</a>
+                    </div>
                 </div>
-
             </div>
-
         </section>
     </main>
     </div>
@@ -145,7 +117,6 @@
             <p>contact@SiCumi.com</p>
         </div>
     </footer>
-    <script src="../js/confirmation.js"></script>
 </body>
 
 </html>
