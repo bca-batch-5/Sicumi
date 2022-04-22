@@ -1,0 +1,29 @@
+$color-primary: #7950f2;
+$color-primary-dark: #5f3dc4;
+$color-primary-light: #b197fc;
+$color-white: #fff;
+$color-base: #444;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  box-sizing: border-box;
+  color: $color-base;
+}
+
+.hidden {
+  display: none !important;
+}
