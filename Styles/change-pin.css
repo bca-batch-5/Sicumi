@@ -248,6 +248,6 @@ a {
   transition: 0.4s;
 }
 
-.input-holder input:focus {
+.input-holder input:hover {
   border: 1px solid #5f3dc4;
 }
