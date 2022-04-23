@@ -8,6 +8,12 @@
 aside{
   height: 737px;
 }
+.bottom-main a:hover{
+  background-color: white;
+  border: 1px solid #5f3dc4;
+  color: #5f3dc4;
+
+}
 .main-container {
   width: 850px;
   height: 737px;
@@ -16,10 +22,14 @@ aside{
   flex-direction: column;
   justify-content: space-between;
 }
+.top-main{
+  display: flex;
+  flex-direction: column;
+}
 .top-main h3 {
   font-size: 18px;
 }
-.bcr-history-line {
+.bcr-history-line-main {
   /* display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,4 +90,82 @@ h4{
 .bottom-main a:hover{
     color: #5f3dc4;
     padding: 17px 48px;
+}
+.up{
+  font-size: 16px;
+  color: #1EC15F;
+  font-weight: 700;
+}
+.down{
+  font-size: 16px;
+  color: #FF5B37;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  border: 1px solid #7950f2;
+  margin-left: -300px;
+  float: left;
+  right: auto;
+}
+.dropdown-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+  
+}
+.bcr-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  margin-top: 0;
+  padding-top: 30px;
+}
+.bcr-head h2{
+  font-size: 18px;
+}
+
+.bcr-head a{
+  font-size: 14px;
+  text-decoration: none;
+}
+.bcr-history{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-content: space-between;
+  
+}
+.bcr-history-line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:50px ;
+}
+.bcr-history-profil{
+  display: flex;
+}
+.bcr-history-name{
+  font-size: 16px;
+  margin-left: 20px;
+}
+.this{
+  font-size: 16px;
+  color: #7A7886;
+  margin-bottom: 45px;
+}
+.this-month{
+  margin-top: 10px;
 }

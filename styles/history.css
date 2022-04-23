@@ -62,3 +62,27 @@ aside{
 .this-month{
     margin-top: 10px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-child {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid #7950f2;
+    margin-left: -300px;
+    float: left;
+    right: auto;
+  }
+  .dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-child {
+    display: block;
+    
+  }

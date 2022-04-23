@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../style/layout.css" />
-    <link rel="shortcut icon" href="../style/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../style/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/layout.css" />
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet"
         href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" />
-    <link rel="stylesheet" href="../style/amountBlank.css">
+    <link rel="stylesheet" href="../styles/status.css">
 </head>
 
 <body>
@@ -22,12 +22,12 @@
         <nav>
             <div class="nav-countainer">
                 <div class="nav-kiri">
-                    <img class="logo-img" src="../asset/squid.png" alt="" />
+                    <img class="logo-img" src="../assets/squid.png" alt="" />
                     <h1>Sicumi</h1>
 
                 </div>
                 <div class="nav-kanan">
-                    <a href=""><img src="../asset/Rectangle 25.svg" alt="" /></a>
+                    <a href=""><img src="../assets/Rectangle 25.svg" alt="" /></a>
                     <div class="desc-acc">
                         <h3>Robert Chandler</h3>
                         <p>+62 8139 3877 7946</p>
@@ -42,54 +42,67 @@
             <div class="list-side">
                 <ul>
                     <li>
-                        <a href=""><i class="fi fi-rr-apps"></i>Dashboard</a>
+                        <a href="../pages/home.html"><i class="fi fi-rr-apps"></i>Dashboard</a>
                     </li>
                     <li>
-                        <a href=""><i class="fi fi-rr-arrow-small-up"></i>Transfer</a>
+                        <a href="../pages/transfer.html"><i class="fi fi-rr-arrow-small-up"></i>Transfer</a>
                     </li>
                     <li><a href=""><i class="fi fi-rr-plus"></i>Top Up</a></li>
                     <li><a href=""><i class="fi fi-rr-user"></i>Profile</a></li>
                 </ul>
             </div>
             <div class="btn-logout">
-                <a  href=""><i class="fi fi-rr-sign-out"></i>Log Out</a>
+                <a href=""><i class="fi fi-rr-sign-out"></i>Log Out</a>
             </div>
         </aside>
         <section>
             <div class="main">
-                <div class="main-container">
+                <div class="container">
+                    <div class="top">
+                        <img src="../assets/failed.png" alt="">
+                        <h2>Transfer failed</h2>
+                        <p>We can’t transfer your money at the moment, we recommend you to check your internet connection and try again.</p>
+                    </div>
+                    <div class="center-main">
+                        <h3>Detail</h3>
+                        <div class="center-container">
+                            <div class="center-line">
+                                <p>amount</p>
+                                <h4>Rp100.000</h4>
+                            </div>
+                            <div class="center-line">
+                                <p>Balance Left</p>
+                                <h4>Rp20.000</h4>
+                            </div>
+                            <div class="center-line">
+                                <p>Date & Time</p>
+                                <h4>May 11, 2020 - 12.20</h4>
+                            </div>
+                            <div class="center-line">
+                                <p>Notes</p>
+                                <h4>For buying some socks</h4>
+                            </div>
+                        </div>
+                    </div>
                     <div class="top-main">
                         <h3> Transfer </h3>
                         <div class="bcr-history-line">
                             <div class="bcr-history-profil">
                                 <div class="bcr-history-foto">
-                                    <img src="../asset/1.svg" alt="" />
+                                    <img src="../assets/1.svg" alt="" />
                                 </div>
                                 <div class="bcr-history-name">
                                     <p>Samuel Suhi</p>
                                     <p>+62 813-8492-9994</p>
                                 </div>
                             </div>
-                            <p style="width: 336px; font-size: 18px;margin-top: 20px; color: #7A7886;">Type the amount you want to transfer and then
-                                press continue to the next steps.</p>
-
                         </div>
                     </div>
-                    <div class="center-main">
-                        <form action="">
-                            <input type="text" id="rupiah" placeholder="0.00"/>
-                        </form>
-                        <h4>Rp120.000 Available</h4>
-                        <form action="">
-                            <span><img src="../asset/icon-pencil.svg" alt=""></span>
-                            <input type="text" id="notes" placeholder="add some notes"/>
-                        </form>
-                    </div>
-                    <div class="bottom-main">
-                        <a href="../src/confirmation.html">Continue</a>
+                    <div class="bottom-fld">
+                     
+                        <a class="btnback" style="text-decoration: none;" href="../pages/confirmation.html">Try Again</a>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>
@@ -104,7 +117,6 @@
             <p>contact@SiCumi.com</p>
         </div>
     </footer>
-    <script src="../js/amountBlank.js"></script>
 </body>
 
 </html>
