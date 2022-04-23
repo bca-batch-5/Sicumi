@@ -109,6 +109,9 @@ btnLogin.addEventListener("click", (e) => {
 
   if (email === account.email && pass === account.password) {
     changeAlert("Login Succeed", "#12b886");
+    setTimeout(() => {
+      window.location.href = "home.html";
+    }, 2000);
   } else {
     changeAlert("Email or Password Invalid", "#fa5252");
   }
